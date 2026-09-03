@@ -1,0 +1,8 @@
+# Only needed for --mode webull-paper. Simulation mode has zero dependencies.
+#
+# This is the CURRENT official Webull SDK (module `webull.*`), Python 3.8-3.14.
+# If you previously installed the old webull-python-sdk-* packages, remove them:
+#   pip uninstall webull-python-sdk-core webull-python-sdk-trade \
+#       webull-python-sdk-mdata webull-python-sdk-quotes-core \
+#       webull-python-sdk-trade-events-core
+webull-openapi-python-sdk>=2.0.17
